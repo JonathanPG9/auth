@@ -20,6 +20,7 @@ app.use(cookieParser())
  app.use("/api/" , users)
  
 app.listen(PORT , () =>{
-    console.log(`Servidor conectado en el puerto: ${PORT}`)
+    console.log(`Servidor conectado en el puerto : ${PORT}`)
 })
 
+              
